@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -7,6 +9,8 @@ h1 {
 }
 
 .top-container {
+  position: relative;
+  padding-top: 100px;
   background-color: #e4f9f5;
 }
 
@@ -20,4 +24,16 @@ h1 {
   width: 200px;
   height: 200px;
   background-color: blue;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 38vw;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 40vw;
+  bottom: 300px;
 }
