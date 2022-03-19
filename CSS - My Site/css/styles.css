@@ -5,15 +5,21 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
 }
 
 h2 {
+  color: #66bfbf;
+  font-weight: normal;
   font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
 }
 
 h3 {
+  color: #11999e;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -23,26 +29,44 @@ h3 {
   background-color: #e4f9f5;
 }
 
-.middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+/*.middle-container {
 }
 
 .bottom-container {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+}*/
+
+.skill-row {
+  width: 50vw;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .top-cloud {
   position: absolute;
-  right: 38vw;
+  right: 200px;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 40vw;
+  left: 300px;
   bottom: 300px;
+}
+
+.profile-pic {
+  width: 20vw;
+  margin-top: 50px;
+}
+
+.drum-pic {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.climbing-pic {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
 }
